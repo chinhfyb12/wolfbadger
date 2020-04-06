@@ -1,0 +1,83 @@
+@media (max-width: 1050px) {
+  section .new-in, section .browse, section .editor-picks, section .shop-landed {
+    width: 940px;
+  }
+  section .new-in p {
+    max-width: 340px;
+    font-size: 14px;
+  }
+  section .new-in .list-menu {
+    margin-bottom: 0;
+  }
+  section .new-in .list-menu .list-item a {
+    font-size: 16px;
+  }
+  section .browse .browse-item {
+    width: 460px;
+  }
+  section .browse .browse-item .container-list {
+    padding: 20px;
+  }
+  section .browse .browse-item .container-list .browse__list-item a {
+    font-size: 12px;
+  }
+  section .editor-picks .carousel .carousel-inner, section .shop-landed .carousel .carousel-inner {
+    width: 820px;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card {
+    width: inherit;
+    height: 325px;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card > a .card-img-top, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card > a .card-img-top {
+    width: 100%;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card .add-card, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card .add-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card .add-card .add-to-card, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card .add-card .add-to-card {
+    display: none;
+    font-size: 11px;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card .add-card > div, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card .add-card > div {
+    padding: 9px 6px;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card .add-card > div span, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card .add-card > div span {
+    width: 10px;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card .add-card.active .add-to-card, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card .add-card.active .add-to-card {
+    display: block;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card .card-body a, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card .card-body a {
+    font-size: 12px !important;
+  }
+  section .editor-picks .carousel .carousel-inner .carousel-item .box-card .card .card-body p, section .shop-landed .carousel .carousel-inner .carousel-item .box-card .card .card-body p {
+    font-size: 14px;
+  }
+  section .editor-picks h1 {
+    font-size: 24px;
+  }
+  section .editor-picks .editor-discover .editor-discover-item {
+    width: 460px;
+  }
+  section .editor-picks .editor-discover .editor-discover-item img {
+    width: 100%;
+  }
+  section .editor-picks .editor-our {
+    width: 940px;
+  }
+  section .editor-picks .editor-our a {
+    width: 300px;
+  }
+  section .editor-picks .editor-our a img {
+    width: 100%;
+  }
+  section .editor-picks .editor-our a span {
+    display: none;
+  }
+  section .shop-landed h1 {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=tablet1.css.map */

@@ -1,0 +1,114 @@
+@media(max-width: 992px) {
+    section {
+        .new-in, .browse, .editor-picks, .shop-landed {
+            width: 724px;
+        }
+        .new-in {
+            p {
+                max-width: 340px;
+                font-size: 14px;
+            }
+            .list-menu {
+                margin-bottom: 0;
+                .list-item {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .browse {
+            .browse-item {
+                width: 352px;
+                .container-list {
+                    padding: 20px;
+                    .browse__list-item {
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        %carousel-tablet {
+            .carousel-inner {
+                width: 600px;
+                .carousel-item {
+                    .box-card {
+                        .card {
+                            width: inherit;
+                            height: 325px;
+                            > a {
+                                .card-img-top {
+                                    width: 100%;
+                                }
+                            }
+                            .add-card {
+                                display: flex;
+                                .add-to-card {
+                                    display: none;
+                                    font-size: 11px;
+                                }
+                                >div {
+                                    padding: 9px 6px;
+                                    span {
+                                        width: 10px;
+                                    }
+                                }
+                                &.active {
+                                    .add-to-card {
+                                        display: block;
+                                    }
+                                }
+                            }
+                            .card-body {
+                                a {
+                                    font-size: 12px !important;
+                                }
+                                p {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .editor-picks {
+            .carousel {
+                @extend %carousel-tablet;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .editor-discover {
+                .editor-discover-item {
+                    width: 352px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .editor-our {
+                width: 724px;
+                a {
+                    width: 228px;
+                    img {
+                        width: 100%;
+                    }
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .shop-landed {
+            h1 {
+                font-size: 24px;
+            }
+            .carousel {
+                @extend %carousel-tablet;
+            }
+        }
+    }
+}

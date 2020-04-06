@@ -1,0 +1,115 @@
+@media(max-width: 768px) {
+    header {
+        .branch {
+            .img-branch {
+                width: 200px;
+                margin-left: 20px;
+                &.active {
+                    display: none;
+                }
+            }
+            ul {
+                li {
+                    margin: 0 8px;
+                    .box-search {
+                        input {
+                            width: 0;
+                            padding-left: 0;
+                        }
+                        &.active {
+                            input {
+                                animation: box-search .4s;
+                                width: 260px;
+                                padding-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-menu {
+                margin-left: 8px;
+                margin-right: 20px;
+            }
+        }
+    }
+    section {
+        .new-in {
+            width: auto;
+            margin: 0 20px;
+            padding: 20px;
+            img {
+                opacity: .3;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 12px;
+                max-width: 100%;
+            }
+            .list-menu {
+                .list-item {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .browse {
+            width: auto;
+            margin: 0 20px;
+            .browse-item {
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .editor-picks {
+            overflow: hidden;
+            width: auto;
+            .editor-discover {
+                width: auto;
+                margin-left: 20px;
+                margin-right: 20px;
+                flex-direction: column;
+                .editor-discover-item {
+                    width: auto;
+                }
+            }
+            .editor-our {
+                @extend .editor-discover;
+                a {
+                    width: auto;
+                }
+            }
+        }
+        .shop-landed {
+            width: auto;
+            overflow: hidden;
+        }
+    }
+    footer {
+        .key-point {
+            height: auto;
+            padding: 20px 0;
+            .key-point-list {
+                .key-point-item {
+                    p {
+                        display: none;
+                    }
+                    i {
+                        font-size: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes box-search {
+    from {
+        width: 0;
+    }
+    to {
+        width: 260px;
+    }
+}

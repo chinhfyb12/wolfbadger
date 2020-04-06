@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <script src="./Js/jquery.min.js"></script>
+    <script src="./Js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./Css/header.css">
+    <link rel="stylesheet" href="./Css/main.css">
+    <link rel="stylesheet" href="./Css/footer.css">
+    <link rel="stylesheet" href="./Css/tablet1.css">
+    <link rel="stylesheet" href="./Css/tablet2.css">
+    <link rel="stylesheet" href="./Css/mobile.css">
+    <title>Wolf & Badger</title>
+</head>
+<body>
+    <header>
+      <div class="branch">
+        <a href="Home.html"><img class="img-branch" src="./Img/branch.png" alt="worf & badger"></a>
+        <ul>
+          <li>
+            <div class="box-search">
+              <input type="text" placeholder="Search">
+              <a href="#1"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+          </li>
+          <li class="btn-user">
+            <a href="#1">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+            <ul id="user">
+              <li><a href="#1">Sign in</a></li>
+              <li><a href="#1">Sign up</a></li>
+            </ul>
+          </li>
+          <li class="btn-cart">
+            <a href="#1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            <ul id="cart">
+              <li><a href="#1">Giỏ hàng</a></li>
+              <li><a href="#1">Mua hàng</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="#1" class="btn-menu" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <a class="branch" href="Home.html"><img src="./Img/branch.png" alt="worf & badger"></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a id="women" class="nav-link" href="Women.html">WOMEN</a>
+              <div class="btn-collapse" data-toggle="collapse" data-target="#listWomen" onclick="more(this)">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="collapse" id="listWomen">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th><a class="nav-link" href="#1">CLOTHING</a></th>
+                      <th><a class="nav-link" href="#1">ACCESSORIES</a></th>
+                      <th><a class="nav-link" href="#1">JEWELLERY</a></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a class="nav-link" href="#1">ACTIVEWEAR</a></td>
+                      <td><a class="nav-link" href="#1">BAGS</a></td>
+                      <td><a class="nav-link" href="#1">BRACELETS & CUFFS</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">DRESSES</a></td>
+                      <td><a class="nav-link" href="#1">BELTS</a></td>
+                      <td><a class="nav-link" href="#1">BROOCHES & PINS</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">JACKETS & COAT</a></td>
+                      <td><a class="nav-link" href="#1">GLOVES</a></td>
+                      <td><a class="nav-link" href="#1">EARRINGS</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">JUMPSUITS & PLAYSUITS</a></td>
+                      <td><a class="nav-link" href="#1">HAIR ACCESSORIES</a></td>
+                      <td><a class="nav-link" href="#1">NECKLACES</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">KNITWEAR</a></td>
+                      <td><a class="nav-link" href="#1">HATS</a></td>
+                      <td><a class="nav-link" href="#1">RINGS</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MEN</a>
+              <div class="btn-collapse" data-toggle="collapse" data-target="#listMen" onclick="more(this)">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="collapse" id="listMen">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th><a class="nav-link" href="#1">ACCESSORIES</a></th>
+                      <th><a class="nav-link" href="#1">CLOTHING</a></th>
+                      <th><a class="nav-link" href="#1">JEWELLERY</a></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a class="nav-link" href="#1">BAGS</a></td>
+                      <td><a class="nav-link" href="#1">COATS</a></td>
+                      <td><a class="nav-link" href="#1">BRACELETS</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">BELTS</a></td>
+                      <td><a class="nav-link" href="#1">JACKETS</a></td>
+                      <td><a class="nav-link" href="#1">CUFFLINKS & PINS</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">GLOVES</a></td>
+                      <td><a class="nav-link" href="#1">JUMPERS & CARDIGANS</a></td>
+                      <td><a class="nav-link" href="#1">NECKLACES</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">POCKET SQUARES</a></td>
+                      <td><a class="nav-link" href="#1">SHIRTS</a></td>
+                      <td><a class="nav-link" href="#1">WATCHES</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">SCARVES</a></td>
+                      <td><a class="nav-link" href="#1">SWINWEAR</a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">SHOES</a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+              <div class="btn-collapse" data-toggle="collapse" data-target="#listHome" onclick="more(this)">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="collapse" id="listHome">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th><a class="nav-link" href="#1">HOME DECORATION</a></th>
+                      <th><a class="nav-link" href="#1">KITCHEN & BATHROOM</a></th>
+                      <th><a class="nav-link" href="#1">LIGHTING</a></th>
+                      <th><a class="nav-link" href="#1">FUN STUFF</a></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a class="nav-link" href="#1">BEDDING</a></td>
+                      <td><a class="nav-link" href="#1">COOKING</a></td>
+                      <td><a class="nav-link" href="#1">LAMPS</a></td>
+                      <td><a href="#1" class="nav-link">GADGETS & CASES</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">BLANKETS & THROWS</a></td>
+                      <td><a class="nav-link" href="#1">GLASSWEAR</a></td>
+                      <td><a class="nav-link" href="#1">LAMPSHADES</a></td>
+                      <td><a class="nav-link" href="#1">GAMES</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">CANDLES & DIFFUSERS</a></td>
+                      <td><a class="nav-link" href="#1">KITCHEN LINENS</a></td>
+                      <td><a class="nav-link" href="#1">PULL CORDS</a></td>
+                      <td><a class="nav-link" href="#1">STATIONERY</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">CUSHIONS</a></td>
+                      <td><a class="nav-link" href="#1">MUGS & CUPS</a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">OBJECTS</a></td>
+                      <td><a class="nav-link" href="#1">PLATES & BOWLS</a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BEAUTY</a>
+              <div class="btn-collapse" data-toggle="collapse" data-target="#listBeauty" onclick="more(this)">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="collapse" id="listBeauty">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th><a class="nav-link" href="#1">BEAUTY</a></th>
+                      <th><a class="nav-link" href="#1">GROOMING</a></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a class="nav-link" href="#1">BATH & BODY</a></td>
+                      <td><a class="nav-link" href="#1">BATH & BODY</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">COSMETICS</a></td>
+                      <td><a class="nav-link" href="#1">HAIRCARE</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">HAIRCARE</a></td>
+                      <td><a class="nav-link" href="#1">SHAVING</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">SKINCARE</a></td>
+                      <td><a class="nav-link" href="#1">SKINCARE</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">OBJECTS</a></td>
+                      <td><a class="nav-link" href="#1">PLATES & BOWLS</a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                      <td><a class="nav-link" href="#1"></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DESIGNERS</a>
+              <div class="btn-collapse" data-toggle="collapse" data-target="#listDesigners" onclick="more(this)">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="collapse" id="listDesigners">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th><a class="nav-link" href="#1">NEW DESIGNERS</a></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a class="nav-link" href="#1">PEAK VIGOUR</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">VIRGO CERAMICS</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">BRISTON WATCHES</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">COLT AND WILLOW</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">JACKAROO & BUG</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">LA MILLA MILAN</a></td>
+                    </tr>
+                    <tr>
+                      <td><a class="nav-link" href="#1">FRIENDS THAT RHYME</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#">MAGAZINE</a>
+              <div class="btn-collapse" data-toggle="collapse" data-target="#listMagazine" onclick="more(this)">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="collapse" id="listMagazine">
+                <div class="nav-list_img">
+                  <div><a href="#1"><img src="./Img/Header/creator.png"><span>CREATOR</span></a></div>
+                  <div><a href="#1"><img src="./Img/Header/enviroment.png"><span>ENVIROMENT</span></a></div>
+                  <div><a href="#1"><img src="./Img/Header/inspiration.png"><span>INSPIRATION</span></a></div>
+              </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="new-in">
+        <img src="./Img/New/kfl4palkxi8mmjhdzksx.png">
+        <img src="./Img/New/laero6avp4legzqm1ix2.png">
+        <h1>New In</h1>
+        <p>Be the first to discover what's new from independent, ethical and unique brands worldwide</p>
+        <ul class="list-menu">
+          <li class="list-item"><a href="#1">BEAUTY</a></li>
+          <li class="list-item"><a href="#1">WOMEN</a></li>
+          <li class="list-item"><a href="#1">MEN</a></li>
+          <li class="list-item"><a href="#1">HOME</a></li>
+        </ul>
+      </div>
+      <div class="browse">
+        <div class="browse-item women">
+          <div class="container-img">
+            <img src="./Img/Browse/q8km6p1ers0fg8x727a6.jpg">
+            <a class="box-link" href="#1">
+              <p>BROWSE</p>
+              <h2>WOMEN</h2>
+            </a>
+          </div>
+          <div class="container-list">
+            <ul class="browse__list">
+              <li class="browse__list-item"><a href="#1">NEW</a></li>
+              <li class="browse__list-item"><a href="#1">CLOTHING</a></li>
+              <li class="browse__list-item"><a href="#1">ACCESSORIES</a></li>
+              <li class="browse__list-item"><a href="#1">JEWELLERY</a></li>
+              <li class="browse__list-item"><a href="#1">SALE</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="browse-item men">
+          <div class="container-img">
+            <img src="./Img/Browse/ueoctzhqngdmwnuqzjtb.jpg">
+            <a class="box-link" href="#1">
+              <p>BROWSE</p>
+              <h2>MEN</h2>
+            </a>
+          </div>
+          <div class="container-list">
+            <ul class="browse__list">
+              <li class="browse__list-item"><a href="#1">ACCESSORIES</a></li>
+              <li class="browse__list-item"><a href="#1">CLOTHING</a></li>
+              <li class="browse__list-item"><a href="#1">JEWELLERY</a></li>
+              <li class="browse__list-item"><a href="#1">NEW</a></li>
+              <li class="browse__list-item"><a href="#1">SALE</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="browse-item beauty">
+          <div class="container-img">
+            <img src="./Img/Browse/eq6d1eejeis41domjkrj.jpg">
+            <a class="box-link" href="#1">
+              <p>BROWSE</p>
+              <h2>BEAUTY</h2>
+            </a>
+          </div>
+          
+        </div>
+        <div class="browse-item homeware">
+          <div class="container-img">
+            <img src="./Img/Browse/ylrebl9zol58oshskx5n.jpg">
+            <a class="box-link" href="#1">
+              <p>BROWSE</p>
+              <h2>HOMEWARE</h2>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="editor-picks">
+        <h1>SHOP EDITOR'S PICKS</h1>
+        <div id="listShopEditor" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#listShopEditor" data-slide-to="0" class="active"></li>
+            <li data-target="#listShopEditor" data-slide-to="1"></li>
+            <li data-target="#listShopEditor" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="box-card">
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/x7dtiwi9fyvxhv26svug.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Tessa Palm</a>
+                    <a href="#1">TRU Barbados</a>
+                    <p>$120</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/n50qlbzmiawgmue1l99h.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Initials Single Diamond Necklace | A To Z</a>
+                    <a href="#1">ECCE</a>
+                    <p>$385</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/lvfxhmqcv91c4wkik2kh.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">TNP X Franz Klainsek - Mrs Meurrens - Limited Edition</a>
+                    <a href="#1">THE NOU PROJECT</a>
+                    <p>$275</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/afg9vrnjuzw3xmheerda.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Danny Matt Coat</a>
+                    <a href="#1">APPAREAL</a>
+                    <p>$699</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/wouddyz8ef0jxspsmhc5.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">The Ziggy Crossbody Studded Leather Bag Burgundy</a>
+                    <a href="#1">Aurora London</a>
+                    <p>$145</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="box-card">
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/dlfs1midlzwqy8pssu3t.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Dovehouse Gold Vermeil & Green Zirconia Hoop Earrings</a>
+                    <a href="#1">AAuree Jewellery</a>
+                    <p>$95</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/co4xtawqvl037s3tk455.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Gure Kiku High Neck Top</a>
+                    <a href="#1">Louise Coleman</a>
+                    <p>$199</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/i0ijrt6luo6yclgcphzv.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Love Talisman Evil Eye Necklace</a>
+                    <a href="#1">Yvonne Henderson Jewellery</a>
+                    <p>$94</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/yesj8qvq41ozxrxaikub.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">White Blazer Aba</a>
+                    <a href="#1">The Extreme Collection</a>
+                    <p>$381</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/rrmokjcznphli5vmw1da.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">The ‘Ocular’ Holographic Raincoat</a>
+                    <a href="#1">Whyte Studio</a>
+                    <p>$270</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="box-card">
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/lkgven8bd8aurm4bzogz.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Hudson Aran Jumper Seafoam</a>
+                    <a href="#1">Peregrine</a>
+                    <p>$95</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/neh2yhresftadonspgch.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Explore Organic Duo Hair</a>
+                    <a href="#1">vielö</a>
+                    <p>$45</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/ieaowdsegklpx10beihn.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Jaipur Hammered Gold Ring</a>
+                    <a href="#1">Donatella Balsamo Jewellery</a>
+                    <p>$260</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/fj8kuhhybh8ezbpaza0a.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Mini Silk Kimono Lavender</a>
+                    <a href="#1">Castlebird Rose</a>
+                    <p>$315</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Editor/ynjm4n65nosktibtagqq.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Six Hand-Engraved Crystal Champagne Saucers With Greek Key Design</a>
+                    <a href="#1">The Vintage List</a>
+                    <p>$78</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#listShopEditor" role="button" data-slide="prev">
+            <span></span>
+            <span></span>
+          </a>
+          <a class="carousel-control-next" href="#listShopEditor" role="button" data-slide="next">
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        <div class="editor-discover">
+          <div class="editor-discover-item">
+            <a href="#1">
+              <span class="editor-discover-item__title">DREAMING OF SPRING</span>
+              <img src="./Img/Editor/yb5bqyq6c9ts6jakoi3c.jpg">
+            </a>
+            <a href="#1">
+              <span class="editor-discover-item__title">SPOTLIGHT ON</span>
+              <img src="./Img/Editor/eysf4otcw0arjw1k63e0.jpg">
+            </a> 
+          </div>
+          <div class="editor-discover-item">
+            <a href="#1">
+              <span class="editor-discover-item__title">IN THE STUDIO</span>
+              <img src="./Img/Editor/lohbmnrib8rb9alin98v.jpg">
+            </a>
+            <a href="#1">
+              <span class="editor-discover-item__title">STATEMENT JACKETS</span>
+              <img src="./Img/Editor/jvyqcin1cs3fyki9yaw9.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="editor-our">
+          <a href="#1">
+            <span class="editor-our__title">VISIT OUR STORES</span>
+            <img src="./Img/Editor/kyx2e0je7sawynppo9dv.jpg" alt="">
+            <span>An exciting, revolutionary retail concept, Wolf & Badger promotes and supports exciting, independent design talent and retails only the best new generation and unique, fashion and clothing, jewellery, accessories and homeware brands.</span>
+          </a>
+          <a href="#1">
+            <span class="editor-our__title">READ OUR MAGAZINE</span>
+            <img src="./Img/Editor/wdgocr2sralyape85fiq.jpg" alt="">
+            <span>At Kati Kaia unique abstract artworks are combined with high performance product design to inspire you to the mat. Their yoga mats are made from 100% natural rubber, a sustainable, ...</span>
+          </a>
+          <a href="#1">
+            <span class="editor-our__title">STOCK AT WOLF & BADGER</span>
+            <img src="./Img/Editor/pbdnudguj93jdtpcyduz.jpg" alt="">
+            <span>Wolf & Badger is a unique business creating exciting spaces in London and New York for emerging fashion and design brands, to support, promote and retail their products in store and online, through an innovative award-winning platform. Wolf & Badger works with the world's best independent designers from the UK, US and beyond... apply now!</span>
+          </a>
+        </div>
+      </div>
+      <div class="shop-landed">
+        <h1>SHOP JUST LANDED</h1>
+        <div id="shopLanded" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#shopLanded" data-slide-to="0" class="active"></li>
+            <li data-target="#shopLanded" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="box-card">
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/xypgr07hy7aqmo0gwpha.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Heartbreaker Knit In Beige</a>
+                    <a href="#1">THE KNOTTY ONES</a>
+                    <p>$212</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/qpayffdkvucfvjf7rw6b.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Sophia Bracelet Aventurine</a>
+                    <a href="#1">Ana Dyla</a>
+                    <p>$74</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/ekgi4d0uzvviceyhgbz4.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Baroque Visage Ring</a>
+                    <a href="#1">Monastery Jewellery</a>
+                    <p>$73</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/afrb5nyq8lnzjii6ezq5.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Dual Tailored Trouser Made From 100% Fine Worsted Wool From Savile Row</a>
+                    <a href="#1">Cleo Prickett</a>
+                    <p>$310</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/wyqjoyoceflmbf0fn5ek.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">The Olivia Bag  Gold Metalic Animal Print / Red</a>
+                    <a href="#1">Nina Knight</a>
+                    <p>$477</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="box-card">
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/g99y8bko7tg4n97vatkv.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Arcturus Star Earrings Rosegold</a>
+                    <a href="#1">Pieces NewYorkCity</a>
+                    <p>$184</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/huvrez74j03gp4kmnds3.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Flocflac - 3D Printed Small Plant Tray In Pastel Pink</a>
+                    <a href="#1">Batch.works</a>
+                    <p>$19</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/erlgl6jqpibpkpwc8tzq.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Faldan Red</a>
+                    <a href="#1">Faldan</a>
+                    <p>$495</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/xgmyae0orsmem7chhxck.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">Asymmetric-Hem Silk Satin Midi Shirt</a>
+                    <a href="#1">SZABO SIHAG</a>
+                    <p>$495</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="#1"><img class="card-img-top" src="./Img/Shop landed/kn9sbzx7scde864mnivk.jpg"></a>
+                  <div class="add-card">
+                    <p class="add-to-card">Add to Wishlist</p>
+                    <div>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <a href="#1">17th Century Modern Skull Blue Cushion</a>
+                    <a href="#1">Knots Rugs</a>
+                    <p>$195</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#shopLanded" role="button" data-slide="prev">
+            <span></span>
+            <span></span>
+          </a>
+          <a class="carousel-control-next" href="#shopLanded" role="button" data-slide="next">
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="key-point">
+        <ul class="key-point-list">
+          <li class="key-point-item">
+            <p>INDEPENDENT</p>
+            <p>DESIGNERS</p>
+            <i class="fas fa-cut"></i>
+          </li>
+          <li class="key-point-item">
+            <p>FREE 14-DAYS RETURNS</p>
+            <p>WORLDWIDE</p>
+            <i class="fas fa-globe"></i>
+          </li>
+          <li class="key-point-item">
+            <p>NO ANIMAL TESTING</p>
+            <p>NO FUR</p>
+            <i class="fas fa-paw"></i>
+          </li>
+          <li class="key-point-item">
+            <p>SECURE</p>
+            <p>PAYMENT</p>
+            <i class="fas fa-lock"></i>
+          </li>
+          <li class="key-point-item">
+            <p>ESTABLISHED</p>
+            <p>2010</p>
+            <i class="fas fa-award"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h1>#WOLFANDBADGER</h1>
+        <p>Share your Wolf & Badger style with us</p>
+        <p>Tag your looks on Instagram with #wolfandbadger or upload to be featured</p>
+        <h2>CONTACT US</h2>
+        <ul class="list-contact">
+          <li><a href="#1"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#1"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#1"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="copyright">© 2020 Wolf & Badger</div>
+    </footer>
+    
+    
+        
+
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./Js/header.js"></script>
+    <script src="./Js/main.js"></script>
+    <script src="./Js/ajax.js"></script>
+</body>
+</html>

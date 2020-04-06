@@ -1,0 +1,100 @@
+footer {
+  width: 100%;
+  margin-top: 50px;
+}
+
+footer .key-point {
+  width: 100%;
+  height: 165px;
+  background-color: #231f20;
+}
+
+footer .key-point .key-point-list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .key-point .key-point-list .key-point-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #a7a5a6;
+}
+
+footer .key-point .key-point-list .key-point-item p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+footer .key-point .key-point-list .key-point-item i {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+footer .contact {
+  padding: 50px 0;
+  background-color: #ebebeb;
+}
+
+footer .contact h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+footer .contact p {
+  text-align: center;
+  font-size: 14px;
+  color: #6d6d6d;
+  margin-bottom: 0;
+}
+
+footer .contact h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+footer .contact .list-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+}
+
+footer .contact .list-contact li {
+  font-size: 40px;
+  margin: 0 30px;
+}
+
+footer .contact .list-contact li a {
+  color: black;
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 12px;
+  background: #231f20;
+  color: #c3c3c3;
+}
+/*# sourceMappingURL=footer.css.map */

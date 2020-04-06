@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <script src="./Js/jquery.min.js"></script>
+    <script src="./Js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./Css/header.css">
+    <link rel="stylesheet" href="./Css/main.css">
+    <link rel="stylesheet" href="./Css/footer.css">
+    <link rel="stylesheet" href="./Css/tablet1.css">
+    <link rel="stylesheet" href="./Css/tablet2.css">
+    <link rel="stylesheet" href="./Css/mobile.css">
+    <title>Wolf & Badger</title>
+</head>
+<body>
+    <header>
+        <div class="branch">
+            <a href="Home.html"><img class="img-branch" src="./Img/branch.png" alt="worf & badger"></a>
+            <ul>
+                <li>
+                    <div class="box-search">
+                        <input type="text" placeholder="Search">
+                        <a href="#1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </div>
+                </li>
+                <li class="btn-user">
+                    <a href="#1">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                    <ul id="user">
+                        <li><a href="#1">Sign in</a></li>
+                        <li><a href="#1">Sign up</a></li>
+                    </ul>
+                </li>
+                <li class="btn-cart">
+                    <a href="#1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <ul id="cart">
+                        <li><a href="#1">Giỏ hàng</a></li>
+                        <li><a href="#1">Mua hàng</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#1" class="btn-menu" data-toggle="collapse" data-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <a class="branch" href="#1"><img src="./Img/branch.png" alt="worf & badger"></a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a id="women" class="nav-link" href="Women.html">WOMEN</a>
+                        <div class="btn-collapse" data-toggle="collapse" data-target="#listWomen" onclick="more(this)">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="collapse" id="listWomen">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th><a class="nav-link" href="#1">CLOTHING</a></th>
+                                        <th><a class="nav-link" href="#1">ACCESSORIES</a></th>
+                                        <th><a class="nav-link" href="#1">JEWELLERY</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">ACTIVEWEAR</a></td>
+                                        <td><a class="nav-link" href="#1">BAGS</a></td>
+                                        <td><a class="nav-link" href="#1">BRACELETS & CUFFS</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">DRESSES</a></td>
+                                        <td><a class="nav-link" href="#1">BELTS</a></td>
+                                        <td><a class="nav-link" href="#1">BROOCHES & PINS</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">JACKETS & COAT</a></td>
+                                        <td><a class="nav-link" href="#1">GLOVES</a></td>
+                                        <td><a class="nav-link" href="#1">EARRINGS</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">JUMPSUITS & PLAYSUITS</a></td>
+                                        <td><a class="nav-link" href="#1">HAIR ACCESSORIES</a></td>
+                                        <td><a class="nav-link" href="#1">NECKLACES</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">KNITWEAR</a></td>
+                                        <td><a class="nav-link" href="#1">HATS</a></td>
+                                        <td><a class="nav-link" href="#1">RINGS</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MEN</a>
+                        <div class="btn-collapse" data-toggle="collapse" data-target="#listMen" onclick="more(this)">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="collapse" id="listMen">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th><a class="nav-link" href="#1">ACCESSORIES</a></th>
+                                        <th><a class="nav-link" href="#1">CLOTHING</a></th>
+                                        <th><a class="nav-link" href="#1">JEWELLERY</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">BAGS</a></td>
+                                        <td><a class="nav-link" href="#1">COATS</a></td>
+                                        <td><a class="nav-link" href="#1">BRACELETS</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">BELTS</a></td>
+                                        <td><a class="nav-link" href="#1">JACKETS</a></td>
+                                        <td><a class="nav-link" href="#1">CUFFLINKS & PINS</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">GLOVES</a></td>
+                                        <td><a class="nav-link" href="#1">JUMPERS & CARDIGANS</a></td>
+                                        <td><a class="nav-link" href="#1">NECKLACES</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">POCKET SQUARES</a></td>
+                                        <td><a class="nav-link" href="#1">SHIRTS</a></td>
+                                        <td><a class="nav-link" href="#1">WATCHES</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">SCARVES</a></td>
+                                        <td><a class="nav-link" href="#1">SWINWEAR</a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">SHOES</a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                        <div class="btn-collapse" data-toggle="collapse" data-target="#listHome" onclick="more(this)">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="collapse" id="listHome">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th><a class="nav-link" href="#1">HOME DECORATION</a></th>
+                                        <th><a class="nav-link" href="#1">KITCHEN & BATHROOM</a></th>
+                                        <th><a class="nav-link" href="#1">LIGHTING</a></th>
+                                        <th><a class="nav-link" href="#1">FUN STUFF</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">BEDDING</a></td>
+                                        <td><a class="nav-link" href="#1">COOKING</a></td>
+                                        <td><a class="nav-link" href="#1">LAMPS</a></td>
+                                        <td><a href="#1" class="nav-link">GADGETS & CASES</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">BLANKETS & THROWS</a></td>
+                                        <td><a class="nav-link" href="#1">GLASSWEAR</a></td>
+                                        <td><a class="nav-link" href="#1">LAMPSHADES</a></td>
+                                        <td><a class="nav-link" href="#1">GAMES</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">CANDLES & DIFFUSERS</a></td>
+                                        <td><a class="nav-link" href="#1">KITCHEN LINENS</a></td>
+                                        <td><a class="nav-link" href="#1">PULL CORDS</a></td>
+                                        <td><a class="nav-link" href="#1">STATIONERY</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">CUSHIONS</a></td>
+                                        <td><a class="nav-link" href="#1">MUGS & CUPS</a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">OBJECTS</a></td>
+                                        <td><a class="nav-link" href="#1">PLATES & BOWLS</a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BEAUTY</a>
+                        <div class="btn-collapse" data-toggle="collapse" data-target="#listBeauty" onclick="more(this)">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="collapse" id="listBeauty">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th><a class="nav-link" href="#1">BEAUTY</a></th>
+                                        <th><a class="nav-link" href="#1">GROOMING</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">BATH & BODY</a></td>
+                                        <td><a class="nav-link" href="#1">BATH & BODY</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">COSMETICS</a></td>
+                                        <td><a class="nav-link" href="#1">HAIRCARE</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">HAIRCARE</a></td>
+                                        <td><a class="nav-link" href="#1">SHAVING</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">SKINCARE</a></td>
+                                        <td><a class="nav-link" href="#1">SKINCARE</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">OBJECTS</a></td>
+                                        <td><a class="nav-link" href="#1">PLATES & BOWLS</a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                        <td><a class="nav-link" href="#1"></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DESIGNERS</a>
+                        <div class="btn-collapse" data-toggle="collapse" data-target="#listDesigners" onclick="more(this)">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="collapse" id="listDesigners">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th><a class="nav-link" href="#1">NEW DESIGNERS</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">PEAK VIGOUR</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">VIRGO CERAMICS</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">BRISTON WATCHES</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">COLT AND WILLOW</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">JACKAROO & BUG</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">LA MILLA MILAN</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="nav-link" href="#1">FRIENDS THAT RHYME</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">MAGAZINE</a>
+                        <div class="btn-collapse" data-toggle="collapse" data-target="#listMagazine" onclick="more(this)">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="collapse" id="listMagazine">
+                            <div class="nav-list_img">
+                                <div><a href="#1"><img src="./Img/Header/creator.png"><span>CREATOR</span></a></div>
+                                <div><a href="#1"><img src="./Img/Header/enviroment.png"><span>ENVIROMENT</span></a></div>
+                                <div><a href="#1"><img src="./Img/Header/inspiration.png"><span>INSPIRATION</span></a></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="women container">
+        <ul class="women__nav-list">
+            <li class="list">
+                <p>
+                    <a class="women_nav-item active" data-toggle="collapse" href="#item-category" aria-expanded="false" aria-controls="item-category">
+                        CATEGORY
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse show" id="item-category">
+                    <ul>
+                        <li><a href="#1"> Accessories</a></li>
+                        <li><a href="#1"> Clothing</a></li>
+                        <li><a href="#1"> Gifts</a></li>
+                        <li><a href="#1"> Jewellery</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item" data-toggle="collapse" href="#item-style" aria-expanded="false" aria-controls="item-style">
+                        STYLE
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse" id="item-style">
+                    <ul>
+                        <li><a href="#1"> A-Line</a></li>
+                        <li><a href="#1"> Analogue</a></li>
+                        <li><a href="#1"> Anchor</a></li>
+                        <li><a href="#1"> Ankle</a></li>
+                        <li><a href="#1"> Ankle Boots</a></li>
+                        <li><a href="#1"> Aviator</a></li>
+                        <li><a href="#1"> Backless</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item" data-toggle="collapse" href="#item-material" aria-expanded="false" aria-controls="item-material">
+                        MATERIAL
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse" id="item-material">
+                    <ul>
+                        <li><a href="#1"> Acetate</a></li>
+                        <li><a href="#1"> Acrylic</a></li>
+                        <li><a href="#1"> Antioxidants</a></li>
+                        <li><a href="#1"> Antler</a></li>
+                        <li><a href="#1"> Bamboo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item active" data-toggle="collapse" href="#item-colour" aria-expanded="false" aria-controls="item-colour">
+                        COLOUR
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse show" id="item-colour">
+                    <ul>
+                        <li><a href="#1"> Black</a></li>
+                        <li><a href="#1"> Blue</a></li>
+                        <li><a href="#1"> Brown</a></li>
+                        <li><a href="#1"> Gold</a></li>
+                        <li><a href="#1"> Green</a></li>
+                        <li><a href="#1"> Grey</a></li>
+                        <li><a href="#1"> Multicolor</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item" data-toggle="collapse" href="#item-store" aria-expanded="false" aria-controls="item-store">
+                        STORE AVAILABILITY
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse" id="item-store">
+                    <ul>
+                        <li><a href="#1"> London</a></li>
+                        <li><a href="#1"> New York</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item" data-toggle="collapse" href="#item-designer" aria-expanded="false" aria-controls="item-designer">
+                        DESIGNER LOCATION
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse" id="item-designer">
+                    <ul>
+                        <li><a href="#1"> Australia</a></li>
+                        <li><a href="#1"> Austria</a></li>
+                        <li><a href="#1"> Babodos</a></li>
+                        <li><a href="#1"> Brazil</a></li>
+                        <li><a href="#1"> Bulgaria</a></li>
+                        <li><a href="#1"> Canada</a></li>
+                        <li><a href="#1"> Czech Republic</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item active" data-toggle="collapse" href="#item-price" aria-expanded="false" aria-controls="item-price">
+                        PRICE
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse show" id="item-price">
+                    <ul>
+                        <li>
+                            <label>Minimum: $</label>
+                            <input type="text">
+                        </li>
+                        <li>
+                            <label>Maximum: $</label>
+                            <input type="text">
+                        </li>
+                    </ul>
+                    <button class="btn btn-dark mb-2">UPDATE</button>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item" data-toggle="collapse" href="#item-size" aria-expanded="false" aria-controls="item-size">
+                        SIZE
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse" id="item-size">
+                    <ul>
+                        <li><a href="#1"> 30B</a></li>
+                        <li><a href="#1"> 30C</a></li>
+                        <li><a href="#1"> 30D</a></li>
+                        <li><a href="#1"> 30DD</a></li>
+                        <li><a href="#1"> 30E</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item" data-toggle="collapse" href="#item-design" aria-expanded="false" aria-controls="item-design">
+                        DESIGNER
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse" id="item-design">
+                    <ul>
+                        <li><a href="#1"> &SONS Trading Co</a></li>
+                        <li><a href="#1"> 1001 Remedies</a></li>
+                        <li><a href="#1"> 124ever</a></li>
+                        <li><a href="#1"> 1986</a></li>
+                        <li><a href="#1"> 40 Colori</a></li>
+                        <li><a href="#1"> 58 Lifestyle</a></li>
+                        <li><a href="#1"> A-Line Clothing</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list">
+                <p>
+                    <a class="women_nav-item" data-toggle="collapse" href="#item-sustainbility" aria-expanded="false" aria-controls="item-sustainbility">
+                        SUSTAINABILITY STATUSES
+                        <span></span>
+                        <span></span>
+                    </a>
+                </p>
+                <div class="collapse" id="item-sustainbility">
+                    <ul>
+                        <li><a href="#1">Artisan</a></li>
+                        <li><a href="#1">Co-Product</a></li>
+                        <li><a href="#1">Cruelty Free</a></li>
+                        <li><a href="#1">Green</a></li>
+                        <li><a href="#1">Happy Worker</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="women_list-item ml-5 pt-3 pb-3">
+            <h2>DESIGNER WOMENSWARE</h2>
+            <p>Be the first to shop women's designer clothes, jewellery and accessories from our hand-picked independent brands.</p>
+            <div class="list-item justify-content-between" id="productsWomen">
+                
+            </div>
+            <nav class="nav-pagination d-flex justify-content-center">
+              <ul class="pagination">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#1" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item active page"><a class="page-link" href="#1">1</a></li>
+                <li class="page-item page"><a class="page-link" href="#1">2</a></li>
+                <li class="page-item page"><a class="page-link" href="#1">3</a></li>
+                <li class="page-item page"><a class="page-link" href="#1">4</a></li>
+                <li class="page-item page">
+                  <a class="page-link" href="#1" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./Js/header.js"></script>
+    <script src="./Js/main.js"></script>
+    <script src="./Js/ajax.js"></script>
+</body>
+</html>

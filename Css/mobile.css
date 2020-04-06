@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+  header .branch .img-branch {
+    width: 200px;
+    margin-left: 20px;
+  }
+  header .branch .img-branch.active {
+    display: none;
+  }
+  header .branch ul li {
+    margin: 0 8px;
+  }
+  header .branch ul li .box-search input {
+    width: 0;
+    padding-left: 0;
+  }
+  header .branch ul li .box-search.active input {
+    -webkit-animation: box-search .4s;
+            animation: box-search .4s;
+    width: 260px;
+    padding-left: 10px;
+  }
+  header .branch .btn-menu {
+    margin-left: 8px;
+    margin-right: 20px;
+  }
+  section .new-in {
+    width: auto;
+    margin: 0 20px;
+    padding: 20px;
+  }
+  section .new-in img {
+    opacity: .3;
+  }
+  section .new-in h1 {
+    font-size: 30px;
+  }
+  section .new-in p {
+    font-size: 12px;
+    max-width: 100%;
+  }
+  section .new-in .list-menu .list-item a {
+    font-size: 14px;
+  }
+  section .browse {
+    width: auto;
+    margin: 0 20px;
+  }
+  section .browse .browse-item {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section .editor-picks {
+    overflow: hidden;
+    width: auto;
+  }
+  section .editor-picks .editor-discover, section .editor-picks .editor-our {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .editor-picks .editor-discover .editor-discover-item, section .editor-picks .editor-our .editor-discover-item {
+    width: auto;
+  }
+  section .editor-picks .editor-our a {
+    width: auto;
+  }
+  section .shop-landed {
+    width: auto;
+    overflow: hidden;
+  }
+  footer .key-point {
+    height: auto;
+    padding: 20px 0;
+  }
+  footer .key-point .key-point-list .key-point-item p {
+    display: none;
+  }
+  footer .key-point .key-point-list .key-point-item i {
+    font-size: 34px;
+  }
+}
+
+@-webkit-keyframes box-search {
+  from {
+    width: 0;
+  }
+  to {
+    width: 260px;
+  }
+}
+
+@keyframes box-search {
+  from {
+    width: 0;
+  }
+  to {
+    width: 260px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
