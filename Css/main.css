@@ -217,6 +217,7 @@ section .browse img {
 section .browse .browse-item {
   width: 570px;
   margin-top: 20px;
+  flex-direction: column;
 }
 
 section .browse .browse-item .container-img {
